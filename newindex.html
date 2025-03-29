@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Palace</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 30px;
+    }
+
+    h1 {
+      font-size: 3em;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    iframe {
+      margin: 30px 0;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      padding: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Palace</h1>
+    <p>A tribute to the music, the vibe, and the visuals</p>
+  </header>
+
+  <!-- YouTube Video -->
+  <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/o4y13B_SSEo"
+          title="Goodnight, Farewell by Palace"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+  </iframe>
+
+  <!-- Image Gallery -->
+  <section class="gallery">
+    <img src="palace1.jpg" alt="Palace Band Photo 1">
+    <img src="palace2.jpg" alt="Palace Band Photo 2">
+    <img src="palace3.jpg" alt="Palace Band Photo 3">
+	<img src="palace4.jpg" alt="Palace Band Photo 4">
+  </section>
+
+  <footer>
+    <p>Site by Kayla • Just a fan 💿</p>
+  </footer>
+</body>
+</html>
